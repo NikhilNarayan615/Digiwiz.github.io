@@ -1,0 +1,367 @@
+body,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  body {
+     font-size: 14px;
+  }
+}
+
+
+
+/* Style for the quote container */
+.quote {
+  height: 104px;
+  background: #FAB702;
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+
+}
+
+/* Style for the text within the quote */
+.text {
+  color: white;
+  font-size: 30px;
+  font-family: Roboto;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+}
+
+/* Style for the italicized part of the text */
+.text span.italic {
+  color: black;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+/* Header */
+nav {
+  padding-top: 10px;
+}
+
+.icon {
+  width: 20px;
+  /* Adjust the width as needed */
+  height: 15px;
+  /* Adjust the height as needed */
+  margin-right: 5px;
+  /* Add some spacing between the icon and text */
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+
+/* Navbar */
+header {
+  padding: 15px;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: auto;
+}
+
+/* Features Section */
+.feature {
+  margin-bottom: 20px;
+}
+
+
+
+/* Rectangle 13 */
+.carousel-indicators li {
+  background-color: transparent;
+  /* Make the indicators hollow */
+  border: 2px solid yellow;
+  /* Border color for the indicators */
+  border-radius: 50%;
+  /* Make the indicators circular */
+  width: 12px;
+  /* Adjust the width of the indicators */
+  height: 12px;
+  /* Adjust the height of the indicators */
+  margin-right: 5px;
+  /* Add margin to create a gap between indicators */
+  margin-left: 5px;
+  /* Add margin to create a gap between indicators */
+  list-style: none;
+}
+
+.p-3 {
+  background-color:
+    #FAB702;
+}
+
+.feature {
+  padding: 1rem;
+  /* Adjust the padding to control the feature height */
+  margin-bottom: 1rem;
+  /* Adjust the margin to control the space between features */
+}
+
+
+
+
+.table-header {
+  width: 1318px;
+  height: 56px;
+  background-color: #215895;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #4C5B6D;
+  color: #fff;
+  padding: 20px 0;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #f8f9fa;
+  /* Adjust background color as needed */
+  padding: 50px 0;
+  text-align: center;
+}
+
+span img {
+  margin-left: -3.75rem;
+}
+
+.nav-item {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+.col-md-6 img {
+  background: lightgray 50% / cover no-repeat;
+  width: 960px;
+  height: 713px;
+  flex-shrink: 0;
+}
+
+.carousel-inner h1 {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 80px;
+  /* 125% */
+  text-transform: uppercase;
+}
+
+.para {
+  width: 502px;
+  color: white;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+.carousel-indicators li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+
+.carousel-item active {
+  width: 1920px;
+  height: 699px;
+  mix-blend-mode: multiply;
+  background: #A2A2A2;
+}
+
+.carousel-inner .carousel-item .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Adjust the last value for the desired opacity */
+}
+
+.carousel-inner button {
+  color: white;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 24px;
+  word-wrap: break-word;
+
+}
+
+.carousel-inner .btn {
+  width: 180px;
+  height: 58px;
+  background: #F9B701;
+}
+
+
+
+
+/* styles.css */
+
+.custom-container {
+  width: 151px;
+  height: 48px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.custom-container .btn {
+  color: #F9B701;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 48px;
+  /* Set line-height to match the height for vertical centering */
+  letter-spacing: 0.07px;
+  word-wrap: break-word;
+  text-align: center;
+  /* Center the text horizontally */
+}
+
+.features-container {
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  height: 713px;
+  background: #F8F8F8;
+}
+
+.features-container h2 {
+  font-size: 22px;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 24px;
+  word-wrap: break-word;
+
+}
+
+
+.features-container p {
+  width: 373px;
+  color: #6D7396;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word;
+
+}
+
+
+
+
+
+/* feature  */
+
+.feature-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.feature {
+  color: #3B404F;
+  font-size: 44px;
+  font-family: Montserrat;
+  font-weight: 700;
+  text-transform: uppercase;
+  word-wrap: break-word;
+}
+
+
+.feature-text {
+  width: 719px;
+  color: #6D7396;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 24px;
+  letter-spacing: 0.42px;
+  word-wrap: break-word;
+  /* You can add additional styles if needed */
+}
+
+.feature-categories {
+  margin-top: 10px;
+}
+
+.feature-categories span {
+  color: #212121;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin: 0 5px;
+  /* You can add additional styles if needed */
+}
+
+.feature-categories .highlight {
+  color: #FFB700;
+  /* You can add additional styles if needed */
+}
+
+
+/* image  */
+
+.overlay-text {
+  position: absolute;
+  bottom: 0;
+  /* Align to the bottom of the parent */
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: flex-end;
+  /* Align content to the bottom */
+}
+
+.overlay-text>div,
+.overlay-text>img {
+  margin-bottom: 10px;
+  /* Adjust margin as needed */
+}
+
+/* table  */
+

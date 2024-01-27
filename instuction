@@ -1,0 +1,49 @@
+Technologies Used:
+
+1. HTML:
+
+HyperText Markup Language is used for structuring the content of the web page.
+
+2. CSS:
+
+Cascading Style Sheets are used for styling and layout of the web page.
+
+3. Bootstrap:
+
+A front-end framework for responsive and mobile-first web development.
+
+4. JavaScript:
+
+Used for scripting and enhancing the interactivity of the web page.
+
+Instructions to Run the Site:
+
+Follow these steps to run the website locally:
+
+1. Download the Code:
+
+Download or clone the HTML, CSS, and JavaScript files to your local machine.
+
+2. Dependencies:
+
+Ensure you have an active internet connection to fetch external dependencies like Bootstrap.
+
+2. Text Editor:
+
+Use a text editor such as Visual Studio Code, Sublime Text, or any other of your choice.
+
+3. Browser:
+
+Open the index.html file in your preferred web browser.
+
+4. Explore:
+
+Navigate through different sections of the website using the navigation links.
+
+5. Customization (Optional):
+
+Feel free to modify the content, styles, or scripts based on your requirements.
+
+6. Feedback (Optional):
+
+Provide feedback on the appearance, functionality, or any issues you may encounter.
